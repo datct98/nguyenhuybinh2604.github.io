@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập độ dài mảng số nguyên: ");
+        System.out.println("Nhập độ dài mảng số nguyên n: ");
+        // n
         int doDai = sc.nextInt();
+        // check gái trị người dùng nhập vào VD: n=0? n= -1?
         int[] arraySo = new int[doDai];
         System.out.println("Sau khi chuẩn hóa: ");
         for (int i=0; i < arraySo.length; i++) {
